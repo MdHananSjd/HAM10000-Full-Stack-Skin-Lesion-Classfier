@@ -20,3 +20,6 @@ logging.basicConfig(
 
 # instantiate global tracking module
 logger = logging.getLogger("SkinLesionClassifier")
+
+if __name__ == "__main__":
+    logger.info("Logger initialized successfully.")
